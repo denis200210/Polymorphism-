@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -46,11 +46,11 @@ public:
         cout << "          ПИЦЦА" << endl;
         cout << endl;
         cout << "Название           : " << this->name << endl;
-        cout << "Описание           : " << this->opisanie << endl;
+        cout << "Состав             : " << this->opisanie << endl;
         cout << "Размер             : " << this->rasm << endl;
-        cout << "Раз посолено       : " << this->nsalt << endl;
-        cout << "Раз добавлено сыра : " << this->mcheese << endl;
-        cout << "Стоимость          : " << this->coins << endl;
+        cout << "Порции сыра        : " << this->mcheese << endl;
+        cout << "Порции соли        : " << this->nsalt << endl;
+        cout << "Сумма для оплаты   : " << this->coins << endl;
         cout << "================================" << endl;
         cout << endl;
     }
@@ -299,8 +299,8 @@ int main()
     while ((variantotveta != 1) && (variantotveta != 2) && (variantotveta != 3))
     {
             cout << "Выберите действие. Введите:" << endl;
-            cout << " 1 Заказать еще питцу" << endl;
-            cout << " 2 уйти" << endl;
+            cout << " 1 Заказать питццу" << endl;
+            cout << " 2 Уйти" << endl;
             
             cin >> variantotveta;
            
